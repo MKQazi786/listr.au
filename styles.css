@@ -326,6 +326,8 @@ body {
     box-shadow: -1px 0px 10px grey;
     padding: 2rem;
     border-radius: 1rem;
+    display: flex;
+    gap: 2rem;
 }
 
 .sbd .sidebar {
@@ -348,15 +350,15 @@ body {
     gap: 0.5rem;
     background-color: rgb(239 228 228);
     padding: 1rem;
-    border-radius:1rem ;
+    border-radius: 1rem;
     padding: 0.5rem;
 }
 
 .blankDiv {
     background-color: white;
     padding: 0.5rem;
-    border-radius:1rem ;
-    gap: 20vh;
+    border-radius: 1rem;
+    gap: 19vh;
 }
 
 .blankDiv div {
@@ -364,11 +366,11 @@ body {
     gap: 0.5rem;
 }
 
-.blankDivDiv{
+.blankDivDiv {
     flex-direction: row !important;
 }
 
-.paraDiv{
+.paraDiv {
     gap: 0rem !important;
 }
 
@@ -378,7 +380,7 @@ body {
     gap: 1rem;
 }
 
-.mCsb .btn{
+.mCsb .btn {
     place-self: anchor-center;
     padding: 0rem;
     width: 4vh;
@@ -404,4 +406,20 @@ body {
 .p2 {
     color: grey;
     font-size: 1.5vh;
+}
+
+.broker-solicia {
+    border: 1px solid rgb(239 228 228);
+    /* box-shadow: -1px 0px 10px grey; */
+    padding: 1rem 0rem;
+    border-radius: 1rem;
+}
+
+.broker-solicia span {
+    padding: 1rem 4rem;
+    border: 1px solid rgb(239 228 228);
+}
+
+.broker-solicia div {
+    border-radius: 1rem;
 }

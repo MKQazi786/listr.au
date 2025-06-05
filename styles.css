@@ -320,6 +320,7 @@ body {
 .mainConversation {
     border-radius: 1rem;
     width: 50vh;
+    /* width: 90vh; */
 }
 
 .conversation {
@@ -328,13 +329,14 @@ body {
     border-radius: 1rem;
     display: flex;
     gap: 2rem;
+    max-width: 82%;
 }
 
 .sbd .sidebar {
     display: flex;
     flex-direction: column;
     row-gap: 2rem;
-    font-size: larger;
+    font-size: 0.8rem;
 }
 
 .mCsb img {
@@ -342,7 +344,7 @@ body {
     height: 8vh;
 }
 
-.mCsb div {
+.mCsb div,.br-sl {
     display: flex;
 }
 
@@ -413,13 +415,54 @@ body {
     /* box-shadow: -1px 0px 10px grey; */
     padding: 1rem 0rem;
     border-radius: 1rem;
+    width: 95vh;
 }
 
 .broker-solicia span {
-    padding: 1rem 4rem;
+    padding: 1rem 6.23rem;
     border: 1px solid rgb(239 228 228);
 }
 
 .broker-solicia div {
     border-radius: 1rem;
 }
+
+.br-Pic{
+    /* padding-top: 1rem; */
+    width: 9vh;
+    height: 8vh;
+}
+
+.br-sl-btn{
+    background-color: #4CAF50;
+    border: #4CAF50;
+    padding: 0vh;
+    width: 8vh;
+}
+
+.time {
+    color: #6b7280;
+}
+
+.br-sl .name{
+    color: rgb(0, 0, 0);
+}
+
+.br-sl-btn +.br-sl{
+    gap: 1rem;
+}
+
+.br-sl p{
+    color: #a8abb0;
+}
+
+.br-sl> div{
+    padding: 0.5rem;
+}
+
+.m-top{
+    margin-top: 2rem !important;
+    margin-left: 1rem !important;
+    flex-direction: column;
+}
+
